@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kuba.css">
+    <script src="kuba.js"></script>
+    <script>src="Evidence.js"</script>
+    <script>src="Obsluha.js"</script>
+    <script type="text/javascript">
+        window.onload = myFunction;
+    </script>
+    
+    <title>Projekt Network</title>
+</head>
+<body>
+    <header>
+        <h1><span>Jmenuji se Janoušek Jakub a toto je moje Evidence</span></h1>
+        <nav>
+            <ul>
+                <li class="aktivni"><a href="index.html">Domů</a></li>
+                <li><a href="omne.html">O mně</a></li>
+                <li><a href="dovednosti.html">Dovednosti</a></li>
+                <li><a href="reference.html">Reference</a></li>
+                <li><a class="kontakt-tlacitko" href="kontakt.html">Kontakt</a></li>
+                <li>jméno: Jakub Janoušek</li>
+                <li>věk: 30 let</li>
+                <li>bydliště: Horizont City</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+
+        <table border="1" id="myTable">
+        </table>
+
+        <div>
+            <input type="text" id="nazev" placeholder="Zadejte jméno a přijmení"><br>
+            <input type="date" id="datum" placeholder="Zadejte datum narozeni"><br>
+            <input type="text" id="bydliste" placeholder="Zadejte bydliště"><br>
+            <input type="number" id="telefon" placeholder="Zadejte telefoní číslo"><br>
+            <input type="number" id="vek" placeholder="Zadejte věk"><br>
+            <button id="potvrdit" onclick="addUser()">Odeslat formulář</button>
+        </div>
+
+    </section>
+
+</body>
+</html>
