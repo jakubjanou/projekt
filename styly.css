@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+    color: rgb(90, 73, 246);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    background-color: white; /* Pozadí pro lepší kontrast */
+    padding: 10px; /* Pro zajištění, že text nebude "ztracený" */
+}
+
+h2 {
+    text-align: center;
+    color: rgb(91, 75, 100);
+}
